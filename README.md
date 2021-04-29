@@ -1,6 +1,8 @@
-# rarefaction-extrapolation
+# Rarefaction-Extrapolation of St. Lawrence Island Flora
 
-R script for producing rarefaction curve and extrapolating estimated species richness using iNEXT package.
+R script for producing rarefaction curve and extrapolating estimated species richness using iNEXT R package for the Flora of St. Lawrence Island, Alaska. This script was developed for the following paper:
+
+Carlson, M.L., E.J. Trammell, T.W. Nawrocki, and E. Noongwook. 2018. Additions to the Vascular Plant Flora of St. Lawrence Island, Alaska: New Records, Rare Species, and Phytogeographic Patterns. Rhodora. 120:1-41.
 
 ## Getting Started
 
@@ -8,13 +10,15 @@ These instructions will enable you to run the RichnessRarefactionExtrapolation.R
 
 ### Prerequisites
 1. R 3.4.3+
-2. RStudio 1.1.423+
+2. [iNEXT R Package](https://github.com/JohnsonHsieh/iNEXT)
+3. ggplot2
+4. RStudio 1.1.423+
 
 ### Installing
 
 Download this repository and unzip it to a folder on a drive accessible to your computer. Local drives may perform better than network drives.
 
-Open the script in RStudio to run.
+Open the script in RStudio to run. Although the script will self-install iNEXT and ggplot2, we recommend manually installing both packages prior to running the script.
 
 ## Usage
 
@@ -27,8 +31,8 @@ Open the script in RStudio to run.
 ### Built With
 * R 3.4.2
 * [iNEXT R Package](https://github.com/JohnsonHsieh/iNEXT)
+* ggplot2
 * RStudio 1.1.423
-* Notepad ++
 
 ### Authors
 
