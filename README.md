@@ -26,6 +26,7 @@ Open the script in RStudio to run.
 
 ### Built With
 * R 3.4.2
+* [iNEXT R Package](https://github.com/JohnsonHsieh/iNEXT)
 * RStudio 1.1.423
 * Notepad ++
 
@@ -34,15 +35,14 @@ Open the script in RStudio to run.
 * **Timm Nawrocki** - *Alaska Center for Conservation Science, University of Alaska Anchorage*
 
 ### Usage Requirements
+This script uses the [iNEXT R Package](https://github.com/JohnsonHsieh/iNEXT), which is also available on [CRAN](https://cran.r-project.org/web/packages/iNEXT/index.html). We encourage potential users of this script to read the documentation of iNEXT.
 
-If you use this tool, elements of this tool, or a derivative product, please cite the following:
+If you use this script, elements of this script, or a derivative product, please cite the following:
 
 Chao, A., N. Gotelli, T. Hsieh, E. Sander, K. Ma, R. Colwell, and A. Ellison. 2014. Rarefaction and extrapolation with Hill numbers: a framework for sampling and estimation in species diversity studies. Ecological Monographs. 84: 45–67.
-
-Colwell, R., A. Chao, N. Gotelli, S. Lin, C. Mao, R. Chazdon, and J. Longino. 2012. Models and estimators linking individual-based and sample-based rarefaction, extrapolation, and comparison of assemblages. Journal of Plant Ecology. 5: 3–21.
 
 Hsieh, T., K. Ma, and A. Chao. 2016. iNEXT: An R package for interpolation and extrapolation of species diversity (Hill numbers). Methods in Ecology and Evolution. 7: 1451–1456.
 
 ### License
 
-This project is private and can be used by Alaska Center for Conservation Science and collaborators.
+This project is provided under the GNU General Public License v3.0. It is free to use and modify in part or in whole.
